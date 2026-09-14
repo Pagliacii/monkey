@@ -1,0 +1,9 @@
+[package]
+name = "monkey"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ctrlc = "3.5.2"
+rustyline = { version = "18.0.1", default-features = false, features = ["custom-bindings"] }
+unicode-segmentation = "1.13.3"
